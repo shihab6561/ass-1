@@ -95,11 +95,6 @@ header {
   font-size: 20px;
 }
 
-/* .web-dev_head h3 {
-  font-size: 40px;
-  font-family: ; */
-/* } */
-
 .web-dev_part {
   display: flex;
   align-items: center;
@@ -186,16 +181,17 @@ header {
   opacity: 70%;
   color: #0d1321;
   font-family: Azeret Mono;
+  margin-bottom: 48px;
 }
 
 .web-dev_my frame {
-  width: 1076px;
+  width: 100px;
   height: 550px;
 
   margin: 10px 0px;
   border-radius: 16px;
-  width: 1076px;
-  height: 550;
+  width: 2000px;
+  height: 1000;
 }
 
 /* my current target */
@@ -363,7 +359,9 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   width: 1140px;
-  height: 313;
+  height: 313px;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 .web-dev_support p {
@@ -373,6 +371,7 @@ header {
   opacity: 70%;
   font-family: Azeret Mono;
   color: #ffffff;
+  margin-bottom: 24px;
 }
 .web-dev_support h4 {
   font-size: 24px;
@@ -408,4 +407,48 @@ header {
   font-weight: 600;
   font-family: Azeret Mono;
   padding: 19px 20px;
+}
+
+.web-dev_details {
+  display: flex;
+  gap: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.web-dev_details img {
+  width: 60px;
+  height: 60px;
+}
+
+.support_part {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.support_part input {
+  width: 250px;
+  padding: 8px;
+}
+
+.center-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.support_part button {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 100%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+
+  padding: 6px;
 }
