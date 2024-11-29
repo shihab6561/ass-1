@@ -1,0 +1,411 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 800;
+  color: #0d1321;
+}
+
+.nav {
+  padding: 10px;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 12px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+  border-radius: 8px;
+  opacity: 80%;
+  color: #0d1321;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+
+  background-image: url("/assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.hero p {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  opacity: 70%;
+}
+.hero h2 {
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.hero button {
+  padding: 24px 21px;
+  background-color: #0d1321;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  opacity: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero button:hover {
+  background-color: rgb(238, 2, 2);
+}
+
+header {
+  margin-bottom: 96px;
+}
+
+.web-dev_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin-bottom: 20px;
+}
+
+.web-dev_head p {
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* .web-dev_head h3 {
+  font-size: 40px;
+  font-family: ; */
+/* } */
+
+.web-dev_part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.web-dev_part img {
+  width: 50%;
+}
+.hero h2 {
+  text-align: center;
+}
+.web-dev_head h3 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #0d1321;
+  margin-bottom: 24px;
+  font-family: Azeret Mono;
+}
+.web-dev_head p {
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 70%;
+  color: #0d1321;
+}
+
+.web-dev_part h4 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 100%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+  margin-bottom: 16px;
+}
+
+.web-dev_part p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0d1321;
+  opacity: 70%;
+  margin-bottom: 32px;
+}
+
+.web-dev_part button {
+  padding: 12px 16px;
+  opacity: 80%;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Azeret Mono;
+}
+
+.web-dev_part img {
+  width: 274px;
+  height: 240;
+  opacity: 100%;
+  color: #ffffff;
+}
+/* my inspiration */
+
+.web-dev_my {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.web-dev_my h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  opacity: 100%;
+  font-family: Azeret Mono;
+  margin-bottom: 24px;
+}
+
+.web-dev_my p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+}
+
+.web-dev_my frame {
+  width: 1076px;
+  height: 550px;
+
+  margin: 10px 0px;
+  border-radius: 16px;
+  width: 1076px;
+  height: 550;
+}
+
+/* my current target */
+
+.web-dev_current-head {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev_current-head p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.web-dev_current h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  opacity: 100%;
+  font-family: Azeret Mono;
+  margin-bottom: 24px;
+}
+
+.web-dev_current p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+}
+
+.web-dev_current-content {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.current_div {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  gap: 10px;
+  height: 200px;
+}
+.current_div h5 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0d1321;
+  font-family: Azeret Mono;
+}
+
+.current_div img {
+  width: 50px;
+  margin-bottom: 24px;
+}
+
+.current_div p {
+  width: 70%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.current_div a:link {
+  font-size: 16px;
+  color: black;
+}
+
+.current_div a:visited {
+  color: black;
+}
+
+/* web-dev_next-head */
+
+.web-dev_next-head {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev_next-head h3 {
+  font-size: 32px;
+  font-weight: 800;
+  opacity: 100%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+  margin-bottom: 24px;
+}
+
+.web-dev_next-head p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  color: #0d1321;
+  font-family: Azeret Mono;
+}
+
+/* web-dev_react */
+
+.web-dev_react {
+  width: 1140px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 40px;
+}
+
+.web-dev_react h5 {
+  font-size: 24px;
+  font-weight: 800;
+  opacity: 100%;
+  font-family: Azeret Mono;
+}
+
+.web-dev_react img {
+  width: 100px;
+  height: 108;
+  box-sizing: border-box;
+}
+
+.web-dev_react p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  font-family: Azeret Mono;
+  color: #0d1321;
+}
+
+.web-dev_react a:link {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Azeret Mono;
+  color: black;
+}
+
+.web-dev_react a:visited {
+  color: #0d1321;
+}
+
+/* web-dev_support */
+.web-dev_support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background-image: url("/assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1140px;
+  height: 313;
+}
+
+.web-dev_support p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  font-family: Azeret Mono;
+  color: #ffffff;
+}
+.web-dev_support h4 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 100%;
+  font-family: Azeret Mono;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.web-dev_support .web-dev_support button {
+  padding: 24px 21px;
+  background-color: #0d1321;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  opacity: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* web-dev_footer */
+
+.web-dev_footer {
+  display: flex;
+  justify-content: space-around;
+  columns: #0d1321;
+  opacity: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Azeret Mono;
+  padding: 19px 20px;
+}
