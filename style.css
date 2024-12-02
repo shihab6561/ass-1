@@ -40,7 +40,7 @@
   gap: 10px;
   height: 100vh;
 
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
@@ -355,7 +355,7 @@ header {
   justify-content: center;
   gap: 10px;
 
-  background-image: url("/assets/handshake.jpg");
+  background-image: url("assets/handshake.jpg");
   background-repeat: no-repeat;
   background-position: center;
   width: 1140px;
